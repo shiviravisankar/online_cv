@@ -16,7 +16,7 @@ body{
     padding: auto;
     width: 95%;
     font-family: 'work sans' , serif;
-    overflow: hidden;
+    overflow-x: hidden;
 }
 
 /*MAP*/

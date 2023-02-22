@@ -3,41 +3,31 @@
     padding: 0;
 }
 
+:root{
+    --body-copy: 17px;
+    --nav-menu: 24px;
+}
+
 /*FONTS*/
-@font-face {
-    font-family: 'plantinlight';
-    src: url('../assets/plantin/plantin_light-webfont.woff2') format('woff2'),
-         url('../assets/plantin/plantin_light-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
-
-@font-face {
-    font-family: 'plantinsemibold';
-    src: url('../assets/plantin/plantin_semibold-webfont.woff2') format('woff2'),
-         url('../assets/plantin/plantin_semibold-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@400;600&display=swap');
 
 body{
     margin: auto;
     padding: auto;
     width: 100%;
-    background-color: aqua;
+    font-family: 'work sans' , serif;
+    overflow: hidden;
 }
 
 /*MAP*/
 path{
-    fill: pink;
+    fill: white;
     stroke: black;
-    stroke-width: 3px;
+    stroke-width: 0.25px;
 }
 
 path:hover{
-    fill: blue;
+    fill: rgb(247, 255, 20);
     transition: 0.6s;
     cursor: pointer;
 }
@@ -52,14 +42,15 @@ path:hover{
     font-size: var(--nav-menu);
     margin-bottom: 30px;
     padding-top: 40px;
-    margin-left: 50px;
+    margin-left: 100px;
 }
 
 .name{
 display: flex;
 flex: 60%;
-color: #8A36F6;
-font-size: 30px;
+color:black;
+font-size: 48px;
+font-weight: bolder;
 }
 
 
@@ -68,9 +59,15 @@ font-size: 30px;
     flex-direction: row;
     justify-content: end;
     align-items: center;
-    color: #8A36F6;
+    color: black;
 }
 
 .nav{
-    margin-right: 50px;
+    margin-right: 100px;
+}
+
+.mapsvg{
+    margin-top: 110px;
+    width: 100%;
+    margin-left: 100px;
 }

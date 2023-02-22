@@ -3,6 +3,25 @@
     padding: 0;
 }
 
+/*FONTS*/
+@font-face {
+    font-family: 'plantinlight';
+    src: url('../assets/plantin/plantin_light-webfont.woff2') format('woff2'),
+         url('../assets/plantin/plantin_light-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'plantinsemibold';
+    src: url('../assets/plantin/plantin_semibold-webfont.woff2') format('woff2'),
+         url('../assets/plantin/plantin_semibold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
 body{
     margin: auto;
     padding: auto;
@@ -11,7 +30,6 @@ body{
 }
 
 /*MAP*/
-
 path{
     fill: pink;
     stroke: black;

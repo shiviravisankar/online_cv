@@ -14,7 +14,7 @@
 body{
     margin: auto;
     padding: auto;
-    width: 100%;
+    width: 95%;
     font-family: 'work sans' , serif;
     overflow: hidden;
 }
@@ -65,7 +65,6 @@ color:black;
 }
 
 .mapsvg{
-    margin-top: 130px;
     width: 100%;
     margin-left: 100px;
 }
